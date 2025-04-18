@@ -2,10 +2,22 @@
     <head>
         <title>My Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <style>
+            .nav {
+                padding: 2rem 4rem; /* Much bigger nav bar */
+                height: 5rem; /* Explicitly set height */
+            }
+            .nav-logo {
+                left: 4rem; /* Adjusted for new padding */
+            }
+            .nav-buttons {
+                right: 4rem; /* Adjusted for new padding */
+            }
+        </style>
     </head>
     <body>
         <nav class="nav">
-            <a href="/" class="nav-logo">
+            <a href="/index.html" class="nav-logo">
                 <span>My Portfolio</span>
             </a>
 
@@ -19,7 +31,7 @@
             <h1>Welcome to my portfolio</h1>
             <p>This is a simple portfolio website created with HTML and CSS.</p>
             <div class="hero-buttons">
-                <button class="btn btn-primary" onclick="window.location.href='about'">Get Template</button>
+                <button class="btn btn-primary" onclick="window.location.href='about.html'">Get Template</button>
                 <button class="btn btn-secondary">Learn More</button>
             </div>
 
