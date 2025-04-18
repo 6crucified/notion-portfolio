@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="nav">
+            <a href="/" class="nav-logo">
+                <span>My Portfolio</span>
+            </a>
+
+            <div class="nav-buttons">
+                <button class="btn btn-secondary" disabled style="opacity: 0.5; cursor: not-allowed;">Log in</button>
+                <button class="btn btn-primary" disabled style="opacity: 0.5; cursor: not-allowed;">Sign up</button>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <h1>Welcome to my portfolio</h1>
+            <p>This is a simple portfolio website created with HTML and CSS.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="window.location.href='about'">Get Template</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+
+            
+            <h1>Projects</h1>
+
+            <br>
+            <br>
+
+            <div class="templates-showcase">
+                <div class="template-card">
+                    <div class="template-icon">🎨</div>
+                    <h3 class="template-title">Portfolio</h3>
+                    <p class="template-description">Showcase your work with our beautiful portfolio templates.</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-icon">💼</div>
+                    <h3 class="template-title">Business</h3>
+                    <p class="template-description">Professional templates for your business website.</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-icon">✍️</div>
+                    <h3 class="template-title">Blog</h3>
+                    <p class="template-description">Start your blog with our customizable templates.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+
+</html>
