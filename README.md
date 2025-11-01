@@ -1,5 +1,3 @@
-# Notion Portfolio
+# Notion-style Portfolio
 
-## ⚠️ Warning
-
-If you won't use Vercel as your hosting service, feel free to remove the vercel.json file.
+If you won't use Vercel to host the website, feel free to remove the vercel.json file, it just contains the line to remove the filename in the final URL.
